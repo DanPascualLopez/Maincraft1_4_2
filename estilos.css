@@ -1,15 +1,18 @@
 /*para el menu principal*/
-div {
+.logo{
     margin: 50px;
     padding: 50px;
     height: 100%;
+    width: auto;
     font-family: sans-serif;
 }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     height: 100vh;
+    width: auto;
     gap: 20px; /* Espacio entre los botones */
     padding: 20px; /* Espacio alrededor del grid */
     height: 100vh;
@@ -45,6 +48,9 @@ body {
     background-repeat: repeat-x;
     background-attachment: fixed;      /* Fijo al hacer scroll */
 
+    overflow-wrap: break-word; /* Fuerza cortes de línea si el texto es largo */
+    word-break: break-word;
+
 }
 
 /*A FIXEAR*/
@@ -54,3 +60,36 @@ html{
     display: flex;
     justify-content: center;   /* Centrado horizontal */
 }
+
+/*ENEMIGOS*/
+.enemigos{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px; /* bordes no puntiagudos */
+    gap: 10px;
+    margin: 10px;
+}
+
+.enemigo_div_30{
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.enemigo_div_70{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    font-family: sans-serif;
+}
+/*BIOMAS*/
+
+
+/*DIMENSIONES*/
+
+
+
+/*OBJETOS*/
